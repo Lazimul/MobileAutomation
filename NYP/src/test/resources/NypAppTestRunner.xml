@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="android test on emulator">
+
+    <parameter name="OS" value="android"/>
+    <parameter name="appType" value="nexus"/>
+    <parameter name="deviceType" value="emulator"/>
+    <parameter name="deviceName" value="android emulator"/>
+    <parameter name="version" value="8.1"/>
+
+    <test name="Go to Home page" preserve-order="true">
+        <classes>
+
+        </classes>
+    </test>
+</suite>
